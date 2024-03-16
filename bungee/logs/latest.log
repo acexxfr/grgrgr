@@ -1,0 +1,338 @@
+[17:36:14] [main/INFO]: Using mbed TLS based native cipher.
+[17:36:14] [main/INFO]: Using zlib based native compressor.
+[17:36:14] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[17:36:14] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[17:36:14] [main/INFO]: Epoll is working, utilising it!
+[17:36:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[17:36:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[17:36:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[17:36:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[17:36:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[17:36:15] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[17:36:15] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:15] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:15] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:15] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:15] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:15] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:15] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[17:36:15] [main/WARN]: :>  
+[17:36:15] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[17:36:15] [main/WARN]: :>  
+[17:36:15] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[17:36:15] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[17:36:15] [main/WARN]: :>  apart from the versions listed below:
+[17:36:15] [main/WARN]: :>  
+[17:36:15] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[17:36:15] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[17:36:15] [main/WARN]: :>  - FlameCord: 1.1.1
+[17:36:15] [main/WARN]: :>  
+[17:36:15] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[17:36:15] [main/WARN]: :>  
+[17:36:15] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[17:36:15] [main/WARN]: :>  
+[17:36:15] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[17:36:15] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[17:36:17] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[17:36:17] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[17:36:17] [main/WARN]: Forced host server pvp is not defined
+[17:36:17] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:17] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:17] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:17] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:17] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:17] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[17:36:18] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[17:36:18] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[17:36:18] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/pluhserver/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
+[17:36:19] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[17:36:19] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[17:36:19] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[17:40:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50052]: Connected via websocket
+[17:40:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50052]: Origin header is https://aceisnotreal222.github.io
+[17:40:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50052]: Logged in as 'Bob'
+[17:40:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50052|Bob] -> UpstreamBridge has connected
+[17:40:07] [Netty Worker IO Thread #1/INFO]: [Bob|/[0:0:0:0:0:0:0:1%0]:50052] <-> ServerConnector [lobby] has connected
+[17:44:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50052|Bob] -> UpstreamBridge has disconnected
+[17:44:28] [Netty Worker IO Thread #1/INFO]: [Bob] disconnected with: Proxy lost connection to server.
+[17:44:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50052|Bob] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:13:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34580]: Connected via websocket
+[18:13:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34580]: Origin header is https://aceisnotreal222.github.io
+[18:13:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33468]: Connected via websocket
+[18:13:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33468]: Origin header is https://aceisnotreal222.github.io
+[18:15:05] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/pluhserver/bungee/server-icon.png
+[18:15:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40880]: Connected via websocket
+[18:15:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40880]: Origin header is https://aceisnotreal222.github.io
+[18:15:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39662]: Connected via websocket
+[18:15:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39662]: Origin header is https://aceisnotreal222.github.io
+[18:15:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39662]: Logged in as 'tesla'
+[18:15:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:39662|tesla] -> UpstreamBridge has connected
+[18:15:57] [Netty Worker IO Thread #2/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:39662] <-> ServerConnector [lobby] has connected
+[18:18:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:39662|tesla] -> UpstreamBridge has disconnected
+[18:18:03] [Netty Worker IO Thread #2/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[18:18:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:39662|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:18:13] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56966]: Connected via websocket
+[18:18:13] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56966]: Origin header is https://aceisnotreal222.github.io
+[18:18:14] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56966]: Logged in as 'tesla'
+[18:18:14] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56966|tesla] -> UpstreamBridge has connected
+[18:18:14] [Netty Worker IO Thread #3/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:56966] <-> ServerConnector [lobby] has connected
+[18:19:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56966|tesla] -> UpstreamBridge has disconnected
+[18:19:20] [Netty Worker IO Thread #3/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[18:19:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56966|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:19:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60946]: Connected via websocket
+[18:19:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60946]: Origin header is https://aceisnotreal222.github.io
+[18:19:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60946]: Logged in as 'tesla'
+[18:19:48] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60946|tesla] -> UpstreamBridge has connected
+[18:19:48] [Netty Worker IO Thread #0/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:60946] <-> ServerConnector [lobby] has connected
+[18:20:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60946|tesla] -> UpstreamBridge has disconnected
+[18:20:03] [Netty Worker IO Thread #0/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[18:20:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60946|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:22:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45196]: Connected via websocket
+[18:22:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45196]: Origin header is https://aceisnotreal222.github.io
+[18:22:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45196]: Logged in as 'tesla'
+[18:22:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45196|tesla] -> UpstreamBridge has connected
+[18:22:12] [Netty Worker IO Thread #1/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:45196] <-> ServerConnector [lobby] has connected
+[18:22:50] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45196|tesla] -> UpstreamBridge has disconnected
+[18:22:50] [Netty Worker IO Thread #1/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[18:22:50] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45196|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:42:30] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35808]: Connected via websocket
+[18:42:30] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35808]: Origin header is https://aceisnotreal222.github.io
+[18:42:30] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35808]: Logged in as 'Bob'
+[18:42:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35808|Bob] -> UpstreamBridge has connected
+[18:42:30] [Netty Worker IO Thread #3/INFO]: [Bob|/[0:0:0:0:0:0:0:1%0]:35808] <-> ServerConnector [lobby] has connected
+[18:45:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40162]: Connected via websocket
+[18:45:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40162]: Origin header is https://aceisnotreal222.github.io
+[18:45:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40162]: Logged in as 'pickletickler'
+[18:45:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40162|pickletickler] -> UpstreamBridge has connected
+[18:45:10] [Netty Worker IO Thread #1/INFO]: [pickletickler|/[0:0:0:0:0:0:0:1%0]:40162] <-> ServerConnector [lobby] has connected
+[18:45:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43644]: Connected via websocket
+[18:45:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43644]: Origin header is https://aceisnotreal222.github.io
+[18:45:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43644]: Logged in as 'jeffrey_dahmer_'
+[18:45:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43644|jeffrey_dahmer_] -> UpstreamBridge has connected
+[18:45:26] [Netty Worker IO Thread #3/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:43644] <-> ServerConnector [lobby] has connected
+[18:45:56] [Netty Worker IO Thread #3/INFO]: [jeffrey_dahmer_] disconnected with: Login timed out!
+[18:45:56] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43644|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[18:45:56] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43644|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:46:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43874]: Connected via websocket
+[18:46:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43874]: Origin header is https://aceisnotreal222.github.io
+[18:46:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43874]: Logged in as 'jeffrey_dahmer_'
+[18:46:01] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43874|jeffrey_dahmer_] -> UpstreamBridge has connected
+[18:46:01] [Netty Worker IO Thread #0/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:43874] <-> ServerConnector [lobby] has connected
+[18:46:31] [Netty Worker IO Thread #0/INFO]: [jeffrey_dahmer_] disconnected with: Login timed out!
+[18:46:31] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43874|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[18:46:31] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43874|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:46:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56290]: Connected via websocket
+[18:46:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56290]: Origin header is https://aceisnotreal222.github.io
+[18:46:39] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56290]: Logged in as 'jeffrey_dahmer_'
+[18:46:39] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56290|jeffrey_dahmer_] -> UpstreamBridge has connected
+[18:46:39] [Netty Worker IO Thread #1/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:56290] <-> ServerConnector [lobby] has connected
+[18:47:09] [Netty Worker IO Thread #1/INFO]: [jeffrey_dahmer_] disconnected with: Login timed out!
+[18:47:09] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56290|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[18:47:09] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56290|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:47:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58866]: Connected via websocket
+[18:47:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58866]: Origin header is https://aceisnotreal222.github.io
+[18:47:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58866]: Logged in as 'jeffrey_dahmer_'
+[18:47:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58866|jeffrey_dahmer_] -> UpstreamBridge has connected
+[18:47:13] [Netty Worker IO Thread #2/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:58866] <-> ServerConnector [lobby] has connected
+[18:47:42] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58866|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[18:47:42] [Netty Worker IO Thread #2/INFO]: [jeffrey_dahmer_] disconnected with: Proxy lost connection to server.
+[18:47:42] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58866|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:48:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38524]: Connected via websocket
+[18:48:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38524]: Origin header is https://aceisnotreal222.github.io
+[18:48:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38524]: Logged in as 'jeffy_dahmer'
+[18:48:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38524|jeffy_dahmer] -> UpstreamBridge has connected
+[18:48:29] [Netty Worker IO Thread #3/INFO]: [jeffy_dahmer|/[0:0:0:0:0:0:0:1%0]:38524] <-> ServerConnector [lobby] has connected
+[18:50:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58444]: Connected via websocket
+[18:50:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58444]: Origin header is https://aceisnotreal222.github.io
+[18:50:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58444]: Logged in as 'jeffrey_dahmer_'
+[18:50:47] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58444|jeffrey_dahmer_] -> UpstreamBridge has connected
+[18:50:47] [Netty Worker IO Thread #0/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:58444] <-> ServerConnector [lobby] has connected
+[18:53:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58444|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[18:53:58] [Netty Worker IO Thread #0/INFO]: [jeffrey_dahmer_] disconnected with: Proxy lost connection to server.
+[18:53:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58444|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:55:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56622]: Connected via websocket
+[18:55:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56622]: Origin header is https://aceisnotreal222.github.io
+[18:55:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56622]: Logged in as 'jeffrey_dahmer_'
+[18:55:58] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56622|jeffrey_dahmer_] -> UpstreamBridge has connected
+[18:55:58] [Netty Worker IO Thread #2/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:56622] <-> ServerConnector [lobby] has connected
+[18:59:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56622|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[18:59:53] [Netty Worker IO Thread #2/INFO]: [jeffrey_dahmer_] disconnected with: Proxy lost connection to server.
+[18:59:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56622|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:01:53] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35808|Bob] -> UpstreamBridge has disconnected
+[19:01:53] [Netty Worker IO Thread #3/INFO]: [Bob] disconnected with: Proxy lost connection to server.
+[19:01:53] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35808|Bob] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:18:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38524|jeffy_dahmer] -> UpstreamBridge has disconnected
+[19:18:13] [Netty Worker IO Thread #3/INFO]: [jeffy_dahmer] disconnected with: Proxy lost connection to server.
+[19:18:13] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38524|jeffy_dahmer] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:19:03] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36898]: Connected via websocket
+[19:19:03] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36898]: Origin header is https://aceisnotreal222.github.io
+[19:19:03] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36898]: Logged in as 'jeffrey_dahmer_'
+[19:19:03] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36898|jeffrey_dahmer_] -> UpstreamBridge has connected
+[19:19:03] [Netty Worker IO Thread #1/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:36898] <-> ServerConnector [lobby] has connected
+[19:28:22] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54584]: Connected via websocket
+[19:28:22] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54584]: Origin header is https://aceisnotreal222.github.io
+[19:28:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54584]: Logged in as 'tesla'
+[19:28:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54584|tesla] -> UpstreamBridge has connected
+[19:28:24] [Netty Worker IO Thread #2/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:54584] <-> ServerConnector [lobby] has connected
+[19:30:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54584|tesla] -> UpstreamBridge has disconnected
+[19:30:35] [Netty Worker IO Thread #2/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:30:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54584|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:30:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54426]: Connected via websocket
+[19:30:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54426]: Origin header is https://aceisnotreal222.github.io
+[19:31:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54426]: Logged in as 'tesla'
+[19:31:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54426|tesla] -> UpstreamBridge has connected
+[19:31:00] [Netty Worker IO Thread #3/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:54426] <-> ServerConnector [lobby] has connected
+[19:33:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36898|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[19:33:20] [Netty Worker IO Thread #1/INFO]: [jeffrey_dahmer_] disconnected with: Proxy lost connection to server.
+[19:33:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36898|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:34:08] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54426|tesla] -> UpstreamBridge has disconnected
+[19:34:08] [Netty Worker IO Thread #3/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:34:08] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54426|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:34:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49140]: Connected via websocket
+[19:34:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49140]: Origin header is https://aceisnotreal222.github.io
+[19:34:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49140]: Logged in as 'tesla'
+[19:34:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49140|tesla] -> UpstreamBridge has connected
+[19:34:29] [Netty Worker IO Thread #0/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:49140] <-> ServerConnector [lobby] has connected
+[19:34:50] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57076]: Connected via websocket
+[19:34:50] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57076]: Origin header is https://aceisnotreal222.github.io
+[19:34:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57076]: Logged in as 'jeffrey_dahmer_'
+[19:34:51] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57076|jeffrey_dahmer_] -> UpstreamBridge has connected
+[19:34:51] [Netty Worker IO Thread #1/INFO]: [jeffrey_dahmer_|/[0:0:0:0:0:0:0:1%0]:57076] <-> ServerConnector [lobby] has connected
+[19:35:32] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57076|jeffrey_dahmer_] -> UpstreamBridge has disconnected
+[19:35:32] [Netty Worker IO Thread #1/INFO]: [jeffrey_dahmer_] disconnected with: Proxy lost connection to server.
+[19:35:32] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57076|jeffrey_dahmer_] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:36:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53188]: Connected via websocket
+[19:36:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53188]: Origin header is https://aceisnotreal222.github.io
+[19:36:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53188]: Logged in as 'jeffy_dahmer'
+[19:36:50] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:53188|jeffy_dahmer] -> UpstreamBridge has connected
+[19:36:50] [Netty Worker IO Thread #3/INFO]: [jeffy_dahmer|/[0:0:0:0:0:0:0:1%0]:53188] <-> ServerConnector [lobby] has connected
+[19:39:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49140|tesla] -> UpstreamBridge has disconnected
+[19:39:25] [Netty Worker IO Thread #0/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:39:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49140|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:39:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47804]: Connected via websocket
+[19:39:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47804]: Origin header is https://aceisnotreal222.github.io
+[19:39:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47804]: Logged in as 'tesla'
+[19:39:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47804|tesla] -> UpstreamBridge has connected
+[19:39:35] [Netty Worker IO Thread #0/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:47804] <-> ServerConnector [lobby] has connected
+[19:39:48] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47804|tesla] -> UpstreamBridge has disconnected
+[19:39:48] [Netty Worker IO Thread #0/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:39:48] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47804|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:40:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49070]: Connected via websocket
+[19:40:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49070]: Origin header is https://aceisnotreal222.github.io
+[19:40:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49070]: Logged in as 'tesla'
+[19:40:11] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49070|tesla] -> UpstreamBridge has connected
+[19:40:11] [Netty Worker IO Thread #1/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:49070] <-> ServerConnector [lobby] has connected
+[19:41:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49070|tesla] -> UpstreamBridge has disconnected
+[19:41:07] [Netty Worker IO Thread #1/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:41:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49070|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:41:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46446]: Connected via websocket
+[19:41:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46446]: Origin header is https://aceisnotreal222.github.io
+[19:41:27] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46446]: Logged in as 'tesla'
+[19:41:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46446|tesla] -> UpstreamBridge has connected
+[19:41:27] [Netty Worker IO Thread #2/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:46446] <-> ServerConnector [lobby] has connected
+[19:44:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46446|tesla] -> UpstreamBridge has disconnected
+[19:44:49] [Netty Worker IO Thread #2/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:44:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46446|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:44:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59314]: Connected via websocket
+[19:44:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59314]: Origin header is https://aceisnotreal222.github.io
+[19:45:01] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59314]: Logged in as 'tesla'
+[19:45:01] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59314|tesla] -> UpstreamBridge has connected
+[19:45:01] [Netty Worker IO Thread #3/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:59314] <-> ServerConnector [lobby] has connected
+[19:46:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59314|tesla] -> UpstreamBridge has disconnected
+[19:46:18] [Netty Worker IO Thread #3/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:46:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:59314|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:46:49] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46002]: Connected via websocket
+[19:46:49] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46002]: Origin header is https://aceisnotreal222.github.io
+[19:46:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46002]: Logged in as 'tesla'
+[19:46:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46002|tesla] -> UpstreamBridge has connected
+[19:46:52] [Netty Worker IO Thread #0/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:46002] <-> ServerConnector [lobby] has connected
+[19:48:44] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46002|tesla] -> UpstreamBridge has disconnected
+[19:48:44] [Netty Worker IO Thread #0/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:48:44] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46002|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:49:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40152]: Connected via websocket
+[19:49:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40152]: Origin header is https://aceisnotreal222.github.io
+[19:49:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40152]: Logged in as 'tesla'
+[19:49:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40152|tesla] -> UpstreamBridge has connected
+[19:49:03] [Netty Worker IO Thread #2/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:40152] <-> ServerConnector [lobby] has connected
+[19:49:17] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40152|tesla] -> UpstreamBridge has disconnected
+[19:49:17] [Netty Worker IO Thread #2/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:49:17] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40152|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:50:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54452]: Connected via websocket
+[19:50:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54452]: Origin header is https://aceisnotreal222.github.io
+[19:50:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56570]: Connected via websocket
+[19:50:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56570]: Origin header is https://aceisnotreal222.github.io
+[19:51:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36100]: Connected via websocket
+[19:51:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36100]: Origin header is https://aceisnotreal222.github.io
+[19:51:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36100]: Logged in as 'tesla'
+[19:51:10] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36100|tesla] -> UpstreamBridge has connected
+[19:51:10] [Netty Worker IO Thread #2/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:36100] <-> ServerConnector [lobby] has connected
+[19:51:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36100|tesla] -> UpstreamBridge has disconnected
+[19:51:57] [Netty Worker IO Thread #2/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:51:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36100|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:52:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56048]: Connected via websocket
+[19:52:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56048]: Origin header is https://aceisnotreal222.github.io
+[19:52:14] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56048]: Logged in as 'tesla'
+[19:52:14] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56048|tesla] -> UpstreamBridge has connected
+[19:52:14] [Netty Worker IO Thread #3/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:56048] <-> ServerConnector [lobby] has connected
+[19:52:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56048|tesla] -> UpstreamBridge has disconnected
+[19:52:26] [Netty Worker IO Thread #3/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:52:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56048|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:52:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50492]: Connected via websocket
+[19:52:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50492]: Origin header is https://aceisnotreal222.github.io
+[19:52:38] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50492]: Logged in as 'tesla'
+[19:52:38] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50492|tesla] -> UpstreamBridge has connected
+[19:52:38] [Netty Worker IO Thread #0/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:50492] <-> ServerConnector [lobby] has connected
+[19:52:50] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50492|tesla] -> UpstreamBridge has disconnected
+[19:52:50] [Netty Worker IO Thread #0/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:52:50] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50492|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:53:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33968]: Connected via websocket
+[19:53:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33968]: Origin header is https://aceisnotreal222.github.io
+[19:53:26] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33968]: Logged in as 'tesla'
+[19:53:26] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33968|tesla] -> UpstreamBridge has connected
+[19:53:26] [Netty Worker IO Thread #2/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:33968] <-> ServerConnector [lobby] has connected
+[19:53:37] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33968|tesla] -> UpstreamBridge has disconnected
+[19:53:37] [Netty Worker IO Thread #2/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:53:37] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33968|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:55:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33378]: Connected via websocket
+[19:55:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33378]: Origin header is https://aceisnotreal222.github.io
+[19:55:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33378]: Logged in as 'ace'
+[19:55:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33378|ace] -> UpstreamBridge has connected
+[19:55:29] [Netty Worker IO Thread #0/INFO]: [ace|/[0:0:0:0:0:0:0:1%0]:33378] <-> ServerConnector [lobby] has connected
+[19:56:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59046]: Connected via websocket
+[19:56:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59046]: Origin header is https://aceisnotreal222.github.io
+[19:56:58] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59046]: Logged in as 'tesla'
+[19:56:58] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:59046|tesla] -> UpstreamBridge has connected
+[19:56:58] [Netty Worker IO Thread #1/INFO]: [tesla|/[0:0:0:0:0:0:0:1%0]:59046] <-> ServerConnector [lobby] has connected
+[19:57:11] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:59046|tesla] -> UpstreamBridge has disconnected
+[19:57:11] [Netty Worker IO Thread #1/INFO]: [tesla] disconnected with: Proxy lost connection to server.
+[19:57:11] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:59046|tesla] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:58:52] [Netty Worker IO Thread #0/INFO]: [ace] disconnected with: Server closed
+[19:58:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33378|ace] -> UpstreamBridge has disconnected
+[19:58:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33378|ace] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:58:52] [Netty Worker IO Thread #3/INFO]: [jeffy_dahmer] disconnected with: Server closed
+[19:58:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:53188|jeffy_dahmer] -> UpstreamBridge has disconnected
+[19:58:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:53188|jeffy_dahmer] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:58:52] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40162|pickletickler] -> UpstreamBridge has disconnected
+[19:58:52] [Netty Worker IO Thread #1/INFO]: [pickletickler] disconnected with: Proxy lost connection to server.
+[19:58:52] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40162|pickletickler] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:59:11] [main/ERROR]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
+[19:59:11] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
+[19:59:11] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[19:59:11] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[19:59:11] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[19:59:11] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[19:59:11] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[19:59:11] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[19:59:11] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[19:59:11] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[19:59:11] [main/ERROR]: 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+[19:59:11] [main/ERROR]: 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+[19:59:11] [main/ERROR]: Caused by: java.io.IOException: Input/output error
+[19:59:11] [main/ERROR]: 	at java.base/java.io.FileInputStream.read0(Native Method)
+[19:59:11] [main/ERROR]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+[19:59:11] [main/ERROR]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+[19:59:11] [main/ERROR]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[19:59:11] [main/ERROR]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+[19:59:11] [main/ERROR]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[19:59:11] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[19:59:11] [main/ERROR]: 	... 10 more
