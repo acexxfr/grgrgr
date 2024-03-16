@@ -1,0 +1,543 @@
+[17:36:12] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:36:12] [Server thread/INFO]: Loading properties
+[17:36:12] [Server thread/INFO]: Default game type: SURVIVAL
+[17:36:12] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:36:12] [Server thread/INFO]: Debug logging is disabled
+[17:36:12] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[17:36:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[17:36:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:36:12] [Server thread/INFO]: Data value allowed items: 
+[17:36:12] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[17:36:12] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[17:36:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[17:36:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[17:36:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[17:36:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[17:36:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[17:36:12] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[17:36:12] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[17:36:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[17:36:12] [Server thread/INFO]: Generating keypair
+[17:36:13] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[17:36:13] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[17:36:13] [Server thread/INFO]: Using default channel type
+[17:36:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:36:13] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[17:36:13] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
+[17:36:14] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[17:36:14] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[17:36:14] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[17:36:14] [Server thread/INFO]: [Vaults] Loading Vaults v1.0.3
+[17:36:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
+[17:36:15] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[17:36:15] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.120[m
+
+[17:36:15] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[17:36:15] [Server thread/INFO]: [m
+
+[17:36:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:36:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:36:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:36:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:36:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4147ms)
+[17:36:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:36:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:36:19] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:36:19] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:36:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:36:19] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:36:19] [Server thread/INFO]: Preparing level "world"
+[17:36:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:36:19] [Server thread/INFO]: Anti X-Ray: true
+[17:36:19] [Server thread/INFO]: 	Engine Mode: 1
+[17:36:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:36:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:36:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:36:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Mob Spawn Range: 4
+[17:36:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:36:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:36:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:36:19] [Server thread/INFO]: Random Lighting Updates: false
+[17:36:19] [Server thread/INFO]: Structure Info Saving: true
+[17:36:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:36:19] [Server thread/INFO]: Max Entity Collisions: 8
+[17:36:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:36:19] [Server thread/INFO]: Max TNT Explosions: 100
+[17:36:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:36:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:36:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:36:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:36:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:36:19] [Server thread/INFO]: View Distance: 4
+[17:36:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:36:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:36:19] [Server thread/INFO]: Clear tick list: false
+[17:36:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:36:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:36:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:36:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:36:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:36:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:36:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:36:19] [Server thread/INFO]: Water over lava flow speed: 5
+[17:36:19] [Server thread/INFO]: Fix TNT cannons: false
+[17:36:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:36:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:36:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:36:19] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:36:19] [Server thread/INFO]: World async lighting: false
+[17:36:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:36:19] [Server thread/INFO]: Anti X-Ray: true
+[17:36:19] [Server thread/INFO]: 	Engine Mode: 1
+[17:36:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:36:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:36:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:36:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Mob Spawn Range: 4
+[17:36:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:36:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:36:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:36:19] [Server thread/INFO]: Random Lighting Updates: false
+[17:36:19] [Server thread/INFO]: Structure Info Saving: true
+[17:36:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:36:19] [Server thread/INFO]: Max Entity Collisions: 8
+[17:36:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:36:19] [Server thread/INFO]: Max TNT Explosions: 100
+[17:36:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:36:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:36:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:36:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:36:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:36:19] [Server thread/INFO]: View Distance: 4
+[17:36:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:36:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:36:19] [Server thread/INFO]: Clear tick list: false
+[17:36:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:36:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:36:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:36:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:36:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:36:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:36:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:36:19] [Server thread/INFO]: Water over lava flow speed: 5
+[17:36:19] [Server thread/INFO]: Fix TNT cannons: false
+[17:36:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:36:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:36:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:36:19] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:36:19] [Server thread/INFO]: World async lighting: false
+[17:36:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:36:19] [Server thread/INFO]: Anti X-Ray: true
+[17:36:19] [Server thread/INFO]: 	Engine Mode: 1
+[17:36:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:36:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:36:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:36:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:36:19] [Server thread/INFO]: Mob Spawn Range: 4
+[17:36:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:36:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:36:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:36:19] [Server thread/INFO]: Random Lighting Updates: false
+[17:36:19] [Server thread/INFO]: Structure Info Saving: true
+[17:36:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:36:19] [Server thread/INFO]: Max Entity Collisions: 8
+[17:36:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:36:19] [Server thread/INFO]: Max TNT Explosions: 100
+[17:36:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:36:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:36:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:36:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:36:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:36:19] [Server thread/INFO]: View Distance: 4
+[17:36:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:36:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:36:19] [Server thread/INFO]: Clear tick list: false
+[17:36:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:36:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:36:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:36:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:36:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:36:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:36:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:36:19] [Server thread/INFO]: Water over lava flow speed: 5
+[17:36:19] [Server thread/INFO]: Fix TNT cannons: false
+[17:36:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:36:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:36:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:36:19] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:36:19] [Server thread/INFO]: World async lighting: false
+[17:36:19] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6249525828354086915)
+[17:36:20] [Server thread/INFO]: Preparing spawn area: 18%
+[17:36:21] [Server thread/INFO]: Preparing spawn area: 73%
+[17:36:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6249525828354086915)
+[17:36:23] [Server thread/INFO]: Preparing spawn area: 50%
+[17:36:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6249525828354086915)
+[17:36:24] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[17:36:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[17:36:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[17:36:24] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[17:36:24] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[17:36:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[17:36:24] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[17:36:24] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[17:36:24] [Server thread/INFO]: No kits found to migrate.
+[17:36:24] [Server thread/INFO]: Loaded 853 items from items.csv.
+[17:36:24] [Server thread/INFO]: Using locale en
+[17:36:24] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[17:36:24] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:36:24] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
+[17:36:24] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[17:36:24] [Server thread/INFO]: Using superperms-based permissions.
+[17:36:24] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[17:36:24] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:36:24] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:36:24] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:36:24] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:36:24] [Server thread/INFO]: [Vaults] Enabling Vaults v1.0.3
+[17:36:24] [Server thread/INFO]: [Vaults] Using File Backend.
+[17:36:24] [Server thread/INFO]: [Vaults] Vaults enabled!
+[17:36:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:36:24] [Server thread/INFO]: Done (5.889s)! For help, type "help" or "?"
+[17:36:24] [Server thread/INFO]: Timings Reset
+[17:36:24] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[17:36:25] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[17:36:25] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[17:36:25] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[17:40:07] [Thread-8/INFO]: UUID of player Bob is faa5dca3-c3d4-354b-ae1b-dde9e5a14b3b
+[17:40:07] [Server thread/INFO]: Bob[/[0:0:0:0:0:0:0:1]:56344] logged in with entity id 400 at ([world]1255.300000011921, 14.0, -625.6958850035389)
+[17:40:38] [Server thread/INFO]: Bob issued server command: /home base
+[17:44:28] [Server thread/INFO]: Bob lost connection: Disconnected
+[17:44:28] [Server thread/INFO]: Bob left the game.
+[18:15:57] [Thread-11/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[18:15:57] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:39238] logged in with entity id 1239 at ([world]560.5213808588175, 12.0, -300.6224630242487)
+[18:18:03] [Server thread/INFO]: tesla lost connection: Disconnected
+[18:18:03] [Server thread/INFO]: tesla left the game.
+[18:18:14] [Thread-12/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[18:18:14] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:48882] logged in with entity id 1437 at ([world]616.6061216181648, 12.0, -300.4696705919888)
+[18:18:41] [Server thread/WARN]: tesla moved wrongly!
+[18:19:20] [Server thread/INFO]: tesla lost connection: Disconnected
+[18:19:20] [Server thread/INFO]: tesla left the game.
+[18:19:48] [Thread-13/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[18:19:48] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:36920] logged in with entity id 1605 at ([world]616.5176227446494, 12.0, -284.7578870791115)
+[18:20:03] [Server thread/INFO]: tesla lost connection: Disconnected
+[18:20:03] [Server thread/INFO]: tesla left the game.
+[18:22:12] [Thread-14/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[18:22:12] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:58670] logged in with entity id 1715 at ([world]616.5176227446494, 12.0, -284.7578870791115)
+[18:22:50] [Server thread/INFO]: tesla lost connection: Disconnected
+[18:22:50] [Server thread/INFO]: tesla left the game.
+[18:42:30] [Thread-16/INFO]: UUID of player Bob is faa5dca3-c3d4-354b-ae1b-dde9e5a14b3b
+[18:42:30] [Server thread/INFO]: Bob[/[0:0:0:0:0:0:0:1]:38520] logged in with entity id 1832 at ([world]1104.6508564671728, 78.0, -592.7949607574335)
+[18:43:15] [Server thread/INFO]: Bob has just earned the achievement [Monster Hunter]
+[18:45:10] [Thread-17/INFO]: UUID of player pickletickler is 0d07d30c-1249-3659-a67f-e2cbf0687204
+[18:45:10] [Server thread/INFO]: pickletickler[/[0:0:0:0:0:0:0:1]:56572] logged in with entity id 2405 at ([world]8001.771245346276, 67.0, -530.3149342424737)
+[18:45:25] [Async Chat Thread - #0/INFO]: <pickletickler> i heard you needed diamonds[m
+
+[18:45:26] [Thread-18/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[18:45:26] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:50690] logged in with entity id 2463 at ([world]-305.5, 72.0, -118.5)
+[18:45:45] [Async Chat Thread - #0/INFO]: <pickletickler> i may be able to help[m
+
+[18:45:56] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Login timed out!
+[18:45:56] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[18:45:56] [Server thread/WARN]: handleDisconnection() called twice
+[18:46:01] [Thread-19/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[18:46:01] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:46076] logged in with entity id 2983 at ([world]-305.5, 72.0, -118.5)
+[18:46:31] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Login timed out!
+[18:46:31] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[18:46:31] [Server thread/WARN]: handleDisconnection() called twice
+[18:46:31] [Server thread/INFO]: pickletickler issued server command: /enderchet
+[18:46:36] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[18:46:39] [Thread-20/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[18:46:39] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:42252] logged in with entity id 3550 at ([world]-305.5, 72.0, -118.5)
+[18:46:50] [Server thread/INFO]: pickletickler issued server command: /tpa bob
+[18:47:08] [Server thread/INFO]: Bob issued server command: /tpaccept
+[18:47:09] [Server thread/INFO]: Bob issued server command: /tpa
+[18:47:09] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Login timed out!
+[18:47:09] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[18:47:09] [Server thread/WARN]: handleDisconnection() called twice
+[18:47:13] [Thread-21/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[18:47:13] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:55046] logged in with entity id 3682 at ([world]-305.5, 72.0, -118.5)
+[18:47:42] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Disconnected
+[18:47:42] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[18:47:49] [Server thread/INFO]: pickletickler issued server command: /baltop
+[18:47:50] [Server thread/INFO]: Bob issued server command: /baltop
+[18:48:30] [Thread-22/INFO]: UUID of player jeffy_dahmer is 2f7d9a0b-3845-3bc4-93ab-71542c0789c6
+[18:48:30] [Server thread/INFO]: jeffy_dahmer[/[0:0:0:0:0:0:0:1]:55690] logged in with entity id 3988 at ([world]466.43089215050605, 29.0, -645.8150486706381)
+[18:48:53] [Server thread/INFO]: pickletickler issued server command: /home nr
+[18:49:13] [Server thread/INFO]: Bob issued server command: /shop
+[18:49:16] [Server thread/INFO]: Bob issued server command: /buy
+[18:49:23] [Server thread/INFO]: jeffy_dahmer issued server command: /tpa bob
+[18:49:32] [Server thread/INFO]: Bob issued server command: /tpaccept
+[18:50:47] [Thread-23/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[18:50:47] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:39754] logged in with entity id 4431 at ([world]-305.5, 72.0, -118.5)
+[18:51:01] [Async Chat Thread - #1/INFO]: <Bob> who is that[m
+
+[18:51:15] [Server thread/INFO]: pickletickler issued server command: /home portal
+[18:51:23] [Server thread/INFO]: pickletickler issued server command: /home nr
+[18:52:01] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /tpa jeffy_dahmer
+[18:52:14] [Server thread/INFO]: jeffy_dahmer issued server command: /tpaccept
+[18:52:46] [Server thread/INFO]: pickletickler issued server command: /home portal
+[18:53:58] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Disconnected
+[18:53:58] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[18:54:11] [Server thread/INFO]: pickletickler issued server command: /baltop
+[18:54:20] [Server thread/INFO]: jeffy_dahmer issued server command: /home 1
+[18:54:21] [Server thread/INFO]: jeffy_dahmer was blown up by Creeper
+[18:55:58] [Thread-24/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[18:55:58] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:59052] logged in with entity id 6507 at ([world]1096.699999988079, 83.0, -587.7008912835092)
+[18:56:30] [Server thread/INFO]: Bob has just earned the achievement [Time to Mine!]
+[18:56:30] [Server thread/INFO]: Bob has just earned the achievement [Getting an Upgrade]
+[18:56:41] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /tpa jeffy_dahmer
+[18:56:46] [Server thread/INFO]: pickletickler issued server command: /home nr
+[18:56:49] [Server thread/INFO]: jeffy_dahmer issued server command: /tpaccept\
+[18:56:57] [Server thread/INFO]: jeffy_dahmer issued server command: /tpaccept
+[18:57:26] [Server thread/INFO]: pickletickler issued server command: /tpa bob
+[18:57:32] [Server thread/INFO]: Bob issued server command: /tpaccept
+[18:58:09] [Server thread/INFO]: pickletickler issued server command: /tpa jeffy_dahmer
+[18:58:21] [Server thread/INFO]: jeffy_dahmer issued server command: /tpaccept
+[18:58:32] [Server thread/INFO]: pickletickler issued server command: /tpa jeffy_dahmer
+[18:58:39] [Server thread/INFO]: jeffy_dahmer issued server command: /tpaccept
+[18:58:40] [Server thread/INFO]: Bob issued server command: /home base
+[18:59:53] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Disconnected
+[18:59:53] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[19:00:22] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[19:01:21] [Server thread/INFO]: jeffy_dahmer issued server command: /sell hand
+[19:01:21] [Server thread/INFO]: §ejeffy_dahmer §asold§e obsidian§a for §e$56,030 §a(431 items at $130 each).
+[19:01:35] [Server thread/INFO]: jeffy_dahmer issued server command: /sell hand
+[19:01:53] [Server thread/INFO]: Bob lost connection: Disconnected
+[19:01:53] [Server thread/INFO]: Bob left the game.
+[19:02:58] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:03:14] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:07:41] [Server thread/INFO]: jeffy_dahmer issued server command: /enderchest
+[19:08:40] [Server thread/INFO]: pickletickler issued server command: /home power
+[19:08:44] [Server thread/INFO]: pickletickler issued server command: /home portal
+[19:09:08] [Server thread/INFO]: jeffy_dahmer issued server command: /home 1
+[19:13:16] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2\
+[19:13:24] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:16:20] [Server thread/INFO]: jeffy_dahmer issued server command: /tpa pickletickler
+[19:16:28] [Server thread/INFO]: pickletickler issued server command: /tpa jeffy_dahmer
+[19:16:48] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:18:13] [Server thread/INFO]: jeffy_dahmer lost connection: Disconnected
+[19:18:13] [Server thread/INFO]: jeffy_dahmer left the game.
+[19:19:03] [Thread-26/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[19:19:03] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:44870] logged in with entity id 9931 at ([world]556.2843853266405, 12.0, -304.9252250119256)
+[19:19:45] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /tpa pickletickler
+[19:19:53] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:21:22] [Server thread/INFO]: jeffrey_dahmer_ has just earned the achievement [Taking Inventory]
+[19:22:56] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /tpa pickletickler
+[19:23:00] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:23:31] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:23:54] [Server thread/INFO]: pickletickler issued server command: /tpa jeffrey_dahmer_
+[19:24:12] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /tpaccept
+[19:24:43] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:24:50] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:24:50] [Server thread/INFO]: §epickletickler §asold§e coal§a for §e$4,800 §a(320 items at $15 each).
+[19:24:57] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:24:57] [Server thread/INFO]: §epickletickler §asold§e coal§a for §e$8,640 §a(576 items at $15 each).
+[19:25:12] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:25:12] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$15,488 §a(484 items at $32 each).
+[19:25:56] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:25:56] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$4,320 §a(135 items at $32 each).
+[19:26:04] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:26:04] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$4,032 §a(126 items at $32 each).
+[19:27:43] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:27:43] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$20,480 §a(640 items at $32 each).
+[19:27:48] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:27:48] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$18,560 §a(580 items at $32 each).
+[19:27:53] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:27:53] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$4,928 §a(154 items at $32 each).
+[19:28:02] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:28:02] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$8,320 §a(260 items at $32 each).
+[19:28:08] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:28:08] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$10,304 §a(322 items at $32 each).
+[19:28:24] [Thread-27/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:28:24] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:60008] logged in with entity id 16928 at ([world]616.5147866518752, 12.0, -283.2553113591775)
+[19:28:33] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:28:33] [Server thread/INFO]: §epickletickler §asold§e redstone§a for §e$4,672 §a(146 items at $32 each).
+[19:28:40] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:28:40] [Server thread/INFO]: §epickletickler §asold§e iron_ore§a for §e$216 §a(12 items at $18 each).
+[19:28:43] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:28:43] [Server thread/INFO]: §epickletickler §asold§e gold_ore§a for §e$225 §a(5 items at $45 each).
+[19:28:46] [Server thread/INFO]: pickletickler issued server command: /sell hand
+[19:28:46] [Server thread/INFO]: §epickletickler §asold§e stone§a for §e$45 §a(15 items at $3 each).
+[19:28:52] [Server thread/INFO]: tesla issued server command: /tpa pickletickler
+[19:28:57] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:29:13] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /home 2
+[19:29:18] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /home 2
+[19:29:25] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /home 1
+[19:29:35] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:29:53] [Server thread/INFO]: jeffrey_dahmer_ issued server command: /tpa pickletickler
+[19:29:55] [Server thread/INFO]: tesla issued server command: /tpa pickletickler
+[19:29:58] [Server thread/INFO]: pickletickler issued server command: /tpaceppt
+[19:30:01] [Server thread/INFO]: pickletickler issued server command: /tpa accept
+[19:30:03] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:30:35] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:30:35] [Server thread/INFO]: tesla left the game.
+[19:31:00] [Thread-28/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:31:00] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:33460] logged in with entity id 17423 at ([world]-278.4857818274781, 9.0, -251.30000001192093)
+[19:31:26] [Server thread/INFO]: tesla issued server command: /tpa pickletickler
+[19:31:39] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:31:45] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:32:17] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[19:32:24] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[19:33:02] [Server thread/INFO]: pickletickler issued server command: /home portal
+[19:33:20] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Disconnected
+[19:33:20] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[19:34:08] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:34:08] [Server thread/INFO]: tesla left the game.
+[19:34:29] [Thread-29/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:34:29] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:38410] logged in with entity id 17978 at ([world_nether]140.47208711497615, 128.0, -70.73673465652503)
+[19:34:43] [Server thread/INFO]: tesla issued server command: /
+[19:34:51] [Thread-30/INFO]: UUID of player jeffrey_dahmer_ is 7167c20b-f9cf-3559-af63-b4b1ecfd5bd7
+[19:34:51] [Server thread/INFO]: jeffrey_dahmer_[/[0:0:0:0:0:0:0:1]:40974] logged in with entity id 18137 at ([world_nether]117.2978759280635, 129.0, -68.84698519468736)
+[19:34:56] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:35:32] [Server thread/INFO]: jeffrey_dahmer_ lost connection: Disconnected
+[19:35:32] [Server thread/INFO]: jeffrey_dahmer_ left the game.
+[19:36:50] [Thread-31/INFO]: UUID of player jeffy_dahmer is 2f7d9a0b-3845-3bc4-93ab-71542c0789c6
+[19:36:50] [Server thread/INFO]: jeffy_dahmer[/[0:0:0:0:0:0:0:1]:46578] logged in with entity id 18254 at ([world]-268.5507442269341, 49.0, -248.42213465736188)
+[19:36:56] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[19:37:03] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[19:37:06] [Server thread/INFO]: jeffy_dahmer issued server command: /home 1
+[19:37:15] [Server thread/INFO]: pickletickler issued server command: /enderchest
+[19:37:31] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:39:25] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:39:25] [Server thread/INFO]: tesla left the game.
+[19:39:35] [Thread-32/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:39:35] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:50824] logged in with entity id 18420 at ([world_nether]136.89160129231328, 129.0, -70.44155817412096)
+[19:39:48] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:39:48] [Server thread/INFO]: tesla left the game.
+[19:40:11] [Thread-33/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:40:11] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:60884] logged in with entity id 18448 at ([world_nether]136.89160129231328, 129.0, -70.44155817412096)
+[19:41:07] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:41:07] [Server thread/INFO]: tesla left the game.
+[19:41:27] [Thread-35/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:41:27] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:47264] logged in with entity id 18974 at ([world]1114.926167829825, 79.1707870772188, -575.9754058251413)
+[19:42:56] [Server thread/WARN]: tesla moved wrongly!
+[19:42:57] [Server thread/WARN]: tesla moved too quickly! 15.448018167958253,0.9747870734041015,5.837318080046089 (15.448018167958253, 0.9747870734041015, 5.837318080046089)
+[19:43:13] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:43:55] [Server thread/INFO]: jeffy_dahmer issued server command: /tpa pickletickler
+[19:43:57] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:44:15] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:44:28] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:44:49] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:44:49] [Server thread/INFO]: tesla left the game.
+[19:45:01] [Thread-36/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:45:01] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:38280] logged in with entity id 20340 at ([world]1107.7113461340919, 78.0, -582.3907613789937)
+[19:45:09] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:45:19] [Server thread/INFO]: tesla issued server command: /sethome ace
+[19:45:40] [Server thread/INFO]: tesla issued server command: /tpa pickletickler
+[19:46:18] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:46:18] [Server thread/INFO]: tesla left the game.
+[19:46:22] [Server thread/INFO]: pickletickler issued server command: /home newhome
+[19:46:50] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:46:52] [Thread-37/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:46:52] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:44610] logged in with entity id 21076 at ([world]1104.6063427726003, 78.0, -585.50187665041)
+[19:47:23] [Server thread/INFO]: jeffy_dahmer issued server command: /home 1
+[19:48:17] [Server thread/INFO]: jeffy_dahmer issued server command: /TPA home 1
+[19:48:30] [Server thread/INFO]: jeffy_dahmer issued server command: /home 1
+[19:48:44] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:48:44] [Server thread/INFO]: tesla left the game.
+[19:48:50] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:49:03] [Thread-38/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:49:03] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:38796] logged in with entity id 21552 at ([world]1091.7493624528374, 76.0, -579.8056975500825)
+[19:49:14] [Server thread/INFO]: jeffy_dahmer issued server command: /tpa pickletickler
+[19:49:17] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:49:17] [Server thread/INFO]: tesla left the game.
+[19:49:20] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:49:37] [Server thread/INFO]: jeffy_dahmer issued server command: /home 3
+[19:49:43] [Server thread/INFO]: jeffy_dahmer issued server command: /sethome 3
+[19:49:50] [Server thread/INFO]: pickletickler issued server command: /home nr
+[19:51:10] [Thread-39/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:51:10] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:46428] logged in with entity id 21901 at ([world]1091.7493624528374, 76.0, -579.8056975500825)
+[19:51:30] [Server thread/INFO]: tesla issued server command: /tpa pickletickler
+[19:51:34] [Server thread/INFO]: pickletickler issued server command: /tpaccept
+[19:51:57] [Server thread/INFO]: tesla lost connection: Internal Exception: java.io.IOException: Broken pipe
+[19:51:57] [Server thread/INFO]: tesla left the game.
+[19:52:14] [Thread-40/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:52:14] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:53992] logged in with entity id 22154 at ([world_nether]63.72454478734579, 128.0, -79.09684667731857)
+[19:52:26] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:52:26] [Server thread/INFO]: tesla left the game.
+[19:52:38] [Thread-41/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:52:39] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:41904] logged in with entity id 22384 at ([world_nether]63.74389827697493, 128.00133597911216, -79.09374975627101)
+[19:52:50] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:52:50] [Server thread/INFO]: tesla left the game.
+[19:53:26] [Thread-42/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:53:26] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:34636] logged in with entity id 22406 at ([world_nether]63.74389827697493, 128.00133597911216, -79.09374975627101)
+[19:53:37] [Server thread/INFO]: tesla lost connection: Internal Exception: java.net.SocketException: Connection reset
+[19:53:37] [Server thread/INFO]: tesla left the game.
+[19:54:28] [Server thread/INFO]: jeffy_dahmer issued server command: /home 3
+[19:55:29] [Thread-43/INFO]: UUID of player ace is 43fc2460-c878-3e85-9cf1-cb6df954545e
+[19:55:29] [Server thread/INFO]: ace[/[0:0:0:0:0:0:0:1]:55300] logged in with entity id 22657 at ([world]449.65729175403624, 29.0, -642.5271501660267)
+[19:55:39] [Server thread/INFO]: ace issued server command: /home main
+[19:56:18] [Server thread/INFO]: ace issued server command: /gamemode survival
+[19:56:58] [Thread-44/INFO]: UUID of player tesla is 5ee6c543-7143-3eae-8a35-6da8cd658365
+[19:56:58] [Server thread/INFO]: tesla[/[0:0:0:0:0:0:0:1]:47800] logged in with entity id 23423 at ([world_nether]63.74389827697493, 128.00133597911216, -79.09374975627101)
+[19:57:11] [Server thread/INFO]: tesla lost connection: Disconnected
+[19:57:11] [Server thread/INFO]: tesla left the game.
+[19:57:51] [Server thread/INFO]: ace issued server command: /home main
+[19:58:15] [Server thread/INFO]: jeffy_dahmer issued server command: /home 2
+[19:58:51] [Server thread/INFO]: ace issued server command: /stop
+[19:58:51] [Server thread/INFO]: [ace: Stopping the server]
+[19:58:51] [Server thread/INFO]: Stopping server
+[19:58:51] [Server thread/INFO]: [Vaults] Disabling Vaults v1.0.3
+[19:58:51] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[19:58:51] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[19:58:51] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[19:58:51] [Server thread/INFO]: Disabling Essentials v2.20.1
+[19:58:51] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[19:58:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
+[19:58:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:58:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:58:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:58:52] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[19:58:52] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[19:58:52] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[19:58:52] [Server thread/INFO]: Saving players
+[19:58:52] [Server thread/INFO]: ace lost connection: Server closed
+[19:58:52] [Server thread/INFO]: ace left the game.
+[19:58:52] [Server thread/INFO]: jeffy_dahmer lost connection: Server closed
+[19:58:52] [Server thread/INFO]: jeffy_dahmer left the game.
+[19:58:52] [Server thread/INFO]: Saving worlds
+[19:58:52] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:58:52] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[19:58:52] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
